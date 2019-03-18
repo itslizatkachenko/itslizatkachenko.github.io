@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Lobster');
+
+
+body{
+	background-color: #ffffff;
+	font-family: "Kaushan";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+	line-height: 1.75;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+
+	margin-top: 70px;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: Kaushan;
+	font-weight: 300;
+	color: #333;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6
+	line-height: 1.4
+	text-transform: uppercase
+
+p{
+	line-height: 28px;
+	margin-bottom: 25px;
+
+}
+
+.centered{
+	text-align: center;
+	
+}
+
+a{
+	color: #f85c37;
+}
+
+a:hover, a: focus{
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+
+hr{
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.navbar{
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navbar-inverse{
+	background: #2d2d2d;
+	border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a{
+	background-color: #ff787;
+}
+
+.navbar-inverse .navbar-brand{
+	color: #999;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+
+}
+
+#headerwrap{
+	background: url(../img/bg-top.jpg) no-repeat center top;
+	margin-top: -10px;
+	padding-top: 20px;
+	text-align: center;
+	background-attachment: relative;
+	background-possition: center center;
+	min-height: 650px;
+	width: 100%;
+
+	background-size:100%;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+}
+
+#headerwrap h1{
+	margin-top: -5px;
+	color: black;
+	font-size: 70px;
+	font-weight: 300;
+	letter-spacing: 3px;
+
+}
+
+#headerwrap p{
+	margin-top: 150px;
+	color: black;
+	font-size: 19px;
+	font-weight: 150;
+	letter-spacing: 3px;
+}	
+
+#headerwrap strong{
+	margin-top: -5px;
+	color: black;
+	font-size: 19px;
+	font-weight: 150;
+	letter-spacing: 3px;
+}
+
+.w {
+	padding-top: 30px;
+}
+
+.w h4{
+	font-size: 25px;
+}
+
+#dg{
+	backgroun: #e0e0e0;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#dg h4{
+	font-size: 40px;
+}
+
+.tilt{
+	-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+				-ms-transition: all 0.5s ease;
+					transition: all 0.5s ease;
+}
+
+.tilt:hover {
+	-webkit-transform: rotate(-10deg);
+		-moz-transform: rotate(-10deg);
+			-o-transform: rotate(-10deg);
+				-ms-transform: rotate(-10deg);
+					transform: rotate(-10deg);
+}
+
+.wb{
+	padding-top: 35px;
+	margin-bottom:
+}
+
+.wb h4 {
+	font-size: 35px;
+}
+
+
+
+#f{
+	background: #2d2d2d;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+#f i{
+	color: #bdbdbd;
+	font-size: 30px;
+	padding: 20px;
+}
+
+#f i:hover{
+	color: #ff7878;
+}
+
+
+

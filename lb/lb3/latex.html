@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Latex</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/x-mathjax-config">
+		  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+		</script>
+		<script type="text/javascript" async
+		  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+		</script>
+		<style>
+		h1 {text-align:center}
+		h2 {
+		  font-weight: bold;
+		  background-color: #DDDDDD;
+		  padding: .2em .5em;
+		  margin-top: 1.5em;
+		  border-top: 3px solid #666666;
+		  border-bottom: 2px solid #999999;
+		}
+		</style>
+	</head>
+	<body>
+	<h1>Обчислити границю<h1> 
+	<p> \[\lim\limits_{x\longrightarrow\infty}(\frac{2x+1}{2x-3})^{3x-5}\] 
+	</p>
+	<p> <u>Розв’язок</u>. Маємо невизначеність $[1^{\infty}] $. Перетворивши вираз, одержимо</p>
+	<br>
+	<p>$ \lim\limits_{x\longrightarrow\infty}(\frac{2x+1}{2x-3})^{3x-5} $=
+$\lim\limits_{x\longrightarrow\infty}(\frac{2x-3+4}{2x-3})^{3x-5}=$=$\lim\limits_{x\longrightarrow\infty}(1+\frac{4}{2x-3})^{3x-5} $=</p>
+	<br>
+	<p>=$\lim\limits_{x\longrightarrow\infty}(1+\frac{4}{2x-3})^{\frac{(2x-3)}{4}\frac{4}{2x-3}(3x-5)}$=
+$ e^{\lim\limits_{x\longrightarrow\infty}(\frac{12x-20}{2x-3})} $=$ e^{6} $.</p>
+	<p>Якщо $ u(x)\longrightarrow 1, v(x)\longrightarrow\infty $ при $ x\longrightarrow x_{0} $,тоді справедлива рівність:</p>
+	<br>
+	<p>\[\lim\limits_{x\longrightarrow\infty}(u(x))^{v(x)}=e^{lim_{x\longrightarrow x_{0}[u(x)-1]v(x)}}\]</p>
+	</body>
+	
+</html>	
